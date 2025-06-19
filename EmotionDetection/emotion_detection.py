@@ -17,5 +17,5 @@ def emotion_detector(text_to_analyse):
         'sadness': emotions['sadness'],
         'dominant_emotion': dominant_emotion
     }
-    print(json.dumps(formatted_response, indent=4))    
-    #return formatted_response
+    #print(json.dumps(formatted_response, indent=4))    
+    return formatted_response
